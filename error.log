@@ -1,0 +1,562 @@
+[Fri Jun 23 19:36:02.081902 2017] [:error] [pid 636] python_init: Python version mismatch, expected '2.7.5+', found '2.7.9'.
+[Fri Jun 23 19:36:02.086476 2017] [:error] [pid 636] python_init: Python executable found '/usr/bin/python'.
+[Fri Jun 23 19:36:02.086490 2017] [:error] [pid 636] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Fri Jun 23 19:36:02.086501 2017] [:notice] [pid 636] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Fri Jun 23 19:36:02.086503 2017] [:notice] [pid 636] mod_python: using mutex_directory /tmp 
+[Fri Jun 23 19:36:02.111300 2017] [mpm_prefork:notice] [pid 636] AH00163: Apache/2.4.10 (Debian) mod_python/3.3.1 Python/2.7.9 OpenSSL/1.0.1t mod_perl/2.0.9dev Perl/v5.20.2 configured -- resuming normal operations
+[Fri Jun 23 19:36:02.111320 2017] [core:notice] [pid 636] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 23 19:36:06.189463 2017] [mpm_prefork:notice] [pid 636] AH00169: caught SIGTERM, shutting down
+[Fri Jun 23 19:36:07.318507 2017] [ssl:warn] [pid 3207] AH01909: localhost:12322:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 23 19:36:07.319198 2017] [ssl:warn] [pid 3207] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 23 19:36:07.344361 2017] [:error] [pid 3208] python_init: Python version mismatch, expected '2.7.5+', found '2.7.9'.
+[Fri Jun 23 19:36:07.344427 2017] [:error] [pid 3208] python_init: Python executable found '/usr/bin/python'.
+[Fri Jun 23 19:36:07.344430 2017] [:error] [pid 3208] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Fri Jun 23 19:36:07.344437 2017] [:notice] [pid 3208] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Fri Jun 23 19:36:07.344438 2017] [:notice] [pid 3208] mod_python: using mutex_directory /tmp 
+[Fri Jun 23 19:36:07.350393 2017] [ssl:warn] [pid 3208] AH01909: localhost:12322:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 23 19:36:07.350608 2017] [ssl:warn] [pid 3208] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 23 19:36:07.351773 2017] [mpm_prefork:notice] [pid 3208] AH00163: Apache/2.4.10 (Debian) mod_python/3.3.1 Python/2.7.9 OpenSSL/1.0.1t mod_perl/2.0.9dev Perl/v5.20.2 configured -- resuming normal operations
+[Fri Jun 23 19:36:07.351789 2017] [core:notice] [pid 3208] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 23 19:59:03.226642 2017] [:error] [pid 3215] [client 192.168.56.1:59777] PHP Notice:  Undefined index: action in /var/www/index.php on line 3
+[Fri Jun 23 19:59:03.226657 2017] [:error] [pid 3215] [client 192.168.56.1:59777] PHP Stack trace:
+[Fri Jun 23 19:59:03.226662 2017] [:error] [pid 3215] [client 192.168.56.1:59777] PHP   1. {main}() /var/www/index.php:0
+[Sat Jul 08 17:14:52.837526 2017] [ssl:warn] [pid 669] AH01909: localhost:12322:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 08 17:14:52.838107 2017] [ssl:warn] [pid 669] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 08 17:14:52.909097 2017] [:error] [pid 688] python_init: Python version mismatch, expected '2.7.5+', found '2.7.9'.
+[Sat Jul 08 17:14:52.911564 2017] [:error] [pid 688] python_init: Python executable found '/usr/bin/python'.
+[Sat Jul 08 17:14:52.911576 2017] [:error] [pid 688] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Sat Jul 08 17:14:52.911585 2017] [:notice] [pid 688] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Sat Jul 08 17:14:52.911587 2017] [:notice] [pid 688] mod_python: using mutex_directory /tmp 
+[Sat Jul 08 17:14:52.936399 2017] [ssl:warn] [pid 688] AH01909: localhost:12322:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 08 17:14:52.936622 2017] [ssl:warn] [pid 688] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 08 17:14:52.937846 2017] [mpm_prefork:notice] [pid 688] AH00163: Apache/2.4.10 (Debian) mod_python/3.3.1 Python/2.7.9 OpenSSL/1.0.1t mod_perl/2.0.9dev Perl/v5.20.2 configured -- resuming normal operations
+[Sat Jul 08 17:14:52.937861 2017] [core:notice] [pid 688] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jul 09 17:05:09.156668 2017] [:error] [pid 880] [client 192.168.56.1:56635] PHP Notice:  Undefined index: action in /var/www/index.php on line 3
+[Sun Jul 09 17:05:09.156778 2017] [:error] [pid 880] [client 192.168.56.1:56635] PHP Stack trace:
+[Sun Jul 09 17:05:09.156807 2017] [:error] [pid 880] [client 192.168.56.1:56635] PHP   1. {main}() /var/www/index.php:0
+[Sun Jul 09 17:37:42.680404 2017] [:error] [pid 3477] [client 192.168.56.1:57574] PHP Notice:  Undefined index: action in /var/www/index.php on line 3
+[Sun Jul 09 17:37:42.680431 2017] [:error] [pid 3477] [client 192.168.56.1:57574] PHP Stack trace:
+[Sun Jul 09 17:37:42.680438 2017] [:error] [pid 3477] [client 192.168.56.1:57574] PHP   1. {main}() /var/www/index.php:0
+[Sun Jul 09 17:38:08.412106 2017] [negotiation:error] [pid 879] [client 192.168.56.1:57581] AH00687: Negotiation: discovered file(s) matching request: /var/www/crud-bootstrap-php/index (None could be negotiated).
+[Sun Jul 09 18:16:15.736717 2017] [:error] [pid 3587] [client 192.168.56.1:59029] PHP Notice:  Trying to get property of non-object in /var/www/estoque/inc/database.php on line 41
+[Sun Jul 09 18:16:15.736737 2017] [:error] [pid 3587] [client 192.168.56.1:59029] PHP Stack trace:
+[Sun Jul 09 18:16:15.736743 2017] [:error] [pid 3587] [client 192.168.56.1:59029] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:16:15.736747 2017] [:error] [pid 3587] [client 192.168.56.1:59029] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:16:15.736751 2017] [:error] [pid 3587] [client 192.168.56.1:59029] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:16:15.736754 2017] [:error] [pid 3587] [client 192.168.56.1:59029] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:16:19.773733 2017] [:error] [pid 3587] [client 192.168.56.1:59029] script '/var/www/estoque/products/add.php' not found or unable to stat, referer: http://192.168.56.101/estoque/products/
+[Sun Jul 09 18:16:41.789197 2017] [:error] [pid 3507] [client 192.168.56.1:59052] PHP Notice:  Trying to get property of non-object in /var/www/estoque/inc/database.php on line 41
+[Sun Jul 09 18:16:41.789219 2017] [:error] [pid 3507] [client 192.168.56.1:59052] PHP Stack trace:
+[Sun Jul 09 18:16:41.789225 2017] [:error] [pid 3507] [client 192.168.56.1:59052] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:16:41.789229 2017] [:error] [pid 3507] [client 192.168.56.1:59052] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:16:41.789233 2017] [:error] [pid 3507] [client 192.168.56.1:59052] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:16:41.789237 2017] [:error] [pid 3507] [client 192.168.56.1:59052] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:31:44.845010 2017] [:error] [pid 4216] [client 192.168.56.1:59402] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:31:44.845033 2017] [:error] [pid 4216] [client 192.168.56.1:59402] PHP Stack trace:
+[Sun Jul 09 18:31:44.845038 2017] [:error] [pid 4216] [client 192.168.56.1:59402] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:31:44.845041 2017] [:error] [pid 4216] [client 192.168.56.1:59402] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:31:44.845044 2017] [:error] [pid 4216] [client 192.168.56.1:59402] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:31:44.845054 2017] [:error] [pid 4216] [client 192.168.56.1:59402] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:31:51.100658 2017] [negotiation:error] [pid 879] [client 192.168.56.1:59403] AH00687: Negotiation: discovered file(s) matching request: /var/www/estoque/products/index (None could be negotiated).
+[Sun Jul 09 18:31:59.145394 2017] [:error] [pid 3506] [client 192.168.56.1:59412] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:31:59.145414 2017] [:error] [pid 3506] [client 192.168.56.1:59412] PHP Stack trace:
+[Sun Jul 09 18:31:59.145419 2017] [:error] [pid 3506] [client 192.168.56.1:59412] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:31:59.145422 2017] [:error] [pid 3506] [client 192.168.56.1:59412] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:31:59.145425 2017] [:error] [pid 3506] [client 192.168.56.1:59412] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:31:59.145427 2017] [:error] [pid 3506] [client 192.168.56.1:59412] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:32:10.082540 2017] [:error] [pid 3586] [client 192.168.56.1:59417] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:32:10.082569 2017] [:error] [pid 3586] [client 192.168.56.1:59417] PHP Stack trace:
+[Sun Jul 09 18:32:10.082575 2017] [:error] [pid 3586] [client 192.168.56.1:59417] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:32:10.082579 2017] [:error] [pid 3586] [client 192.168.56.1:59417] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:32:10.082582 2017] [:error] [pid 3586] [client 192.168.56.1:59417] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:32:10.082585 2017] [:error] [pid 3586] [client 192.168.56.1:59417] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:32:11.561697 2017] [:error] [pid 4072] [client 192.168.56.1:59418] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:32:11.561719 2017] [:error] [pid 4072] [client 192.168.56.1:59418] PHP Stack trace:
+[Sun Jul 09 18:32:11.561725 2017] [:error] [pid 4072] [client 192.168.56.1:59418] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:32:11.561729 2017] [:error] [pid 4072] [client 192.168.56.1:59418] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:32:11.561733 2017] [:error] [pid 4072] [client 192.168.56.1:59418] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:32:11.561736 2017] [:error] [pid 4072] [client 192.168.56.1:59418] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:32:12.003571 2017] [:error] [pid 882] [client 192.168.56.1:59419] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:32:12.003627 2017] [:error] [pid 882] [client 192.168.56.1:59419] PHP Stack trace:
+[Sun Jul 09 18:32:12.003644 2017] [:error] [pid 882] [client 192.168.56.1:59419] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:32:12.003657 2017] [:error] [pid 882] [client 192.168.56.1:59419] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:32:12.003672 2017] [:error] [pid 882] [client 192.168.56.1:59419] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:32:12.003687 2017] [:error] [pid 882] [client 192.168.56.1:59419] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:32:12.180713 2017] [:error] [pid 3506] [client 192.168.56.1:59420] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:32:12.180763 2017] [:error] [pid 3506] [client 192.168.56.1:59420] PHP Stack trace:
+[Sun Jul 09 18:32:12.180810 2017] [:error] [pid 3506] [client 192.168.56.1:59420] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:32:12.180824 2017] [:error] [pid 3506] [client 192.168.56.1:59420] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:32:12.180835 2017] [:error] [pid 3506] [client 192.168.56.1:59420] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:32:12.180846 2017] [:error] [pid 3506] [client 192.168.56.1:59420] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:32:12.323307 2017] [:error] [pid 4216] [client 192.168.56.1:59421] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:32:12.323350 2017] [:error] [pid 4216] [client 192.168.56.1:59421] PHP Stack trace:
+[Sun Jul 09 18:32:12.323366 2017] [:error] [pid 4216] [client 192.168.56.1:59421] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:32:12.323379 2017] [:error] [pid 4216] [client 192.168.56.1:59421] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:32:12.323390 2017] [:error] [pid 4216] [client 192.168.56.1:59421] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:32:12.323400 2017] [:error] [pid 4216] [client 192.168.56.1:59421] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:32:12.472189 2017] [:error] [pid 4741] [client 192.168.56.1:59422] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:32:12.472239 2017] [:error] [pid 4741] [client 192.168.56.1:59422] PHP Stack trace:
+[Sun Jul 09 18:32:12.472255 2017] [:error] [pid 4741] [client 192.168.56.1:59422] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:32:12.472267 2017] [:error] [pid 4741] [client 192.168.56.1:59422] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:32:12.472279 2017] [:error] [pid 4741] [client 192.168.56.1:59422] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:32:12.472289 2017] [:error] [pid 4741] [client 192.168.56.1:59422] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:32:27.501958 2017] [:error] [pid 879] [client 192.168.56.1:59429] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:32:27.501984 2017] [:error] [pid 879] [client 192.168.56.1:59429] PHP Stack trace:
+[Sun Jul 09 18:32:27.501990 2017] [:error] [pid 879] [client 192.168.56.1:59429] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:32:27.501994 2017] [:error] [pid 879] [client 192.168.56.1:59429] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:32:27.501998 2017] [:error] [pid 879] [client 192.168.56.1:59429] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:32:27.502002 2017] [:error] [pid 879] [client 192.168.56.1:59429] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:32:55.259550 2017] [:error] [pid 3586] [client 192.168.56.1:59438] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:32:55.259570 2017] [:error] [pid 3586] [client 192.168.56.1:59438] PHP Stack trace:
+[Sun Jul 09 18:32:55.259576 2017] [:error] [pid 3586] [client 192.168.56.1:59438] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:32:55.259580 2017] [:error] [pid 3586] [client 192.168.56.1:59438] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:32:55.259584 2017] [:error] [pid 3586] [client 192.168.56.1:59438] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:32:55.259587 2017] [:error] [pid 3586] [client 192.168.56.1:59438] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:33:51.302105 2017] [:error] [pid 882] [client 192.168.56.1:59453] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:33:51.302142 2017] [:error] [pid 882] [client 192.168.56.1:59453] PHP Stack trace:
+[Sun Jul 09 18:33:51.302152 2017] [:error] [pid 882] [client 192.168.56.1:59453] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:33:51.302158 2017] [:error] [pid 882] [client 192.168.56.1:59453] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:33:51.302164 2017] [:error] [pid 882] [client 192.168.56.1:59453] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:33:51.302169 2017] [:error] [pid 882] [client 192.168.56.1:59453] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:33:52.065443 2017] [:error] [pid 4741] [client 192.168.56.1:59454] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:33:52.065463 2017] [:error] [pid 4741] [client 192.168.56.1:59454] PHP Stack trace:
+[Sun Jul 09 18:33:52.065468 2017] [:error] [pid 4741] [client 192.168.56.1:59454] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:33:52.065472 2017] [:error] [pid 4741] [client 192.168.56.1:59454] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:33:52.065476 2017] [:error] [pid 4741] [client 192.168.56.1:59454] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:33:52.065479 2017] [:error] [pid 4741] [client 192.168.56.1:59454] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:33:52.421313 2017] [:error] [pid 879] [client 192.168.56.1:59455] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:33:52.421331 2017] [:error] [pid 879] [client 192.168.56.1:59455] PHP Stack trace:
+[Sun Jul 09 18:33:52.421336 2017] [:error] [pid 879] [client 192.168.56.1:59455] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:33:52.421339 2017] [:error] [pid 879] [client 192.168.56.1:59455] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:33:52.421342 2017] [:error] [pid 879] [client 192.168.56.1:59455] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:33:52.421344 2017] [:error] [pid 879] [client 192.168.56.1:59455] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:33:52.579549 2017] [:error] [pid 3507] [client 192.168.56.1:59460] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:33:52.579565 2017] [:error] [pid 3507] [client 192.168.56.1:59460] PHP Stack trace:
+[Sun Jul 09 18:33:52.579569 2017] [:error] [pid 3507] [client 192.168.56.1:59460] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:33:52.579572 2017] [:error] [pid 3507] [client 192.168.56.1:59460] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:33:52.579575 2017] [:error] [pid 3507] [client 192.168.56.1:59460] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:33:52.579577 2017] [:error] [pid 3507] [client 192.168.56.1:59460] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:33:52.767349 2017] [:error] [pid 4072] [client 192.168.56.1:59461] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:33:52.767367 2017] [:error] [pid 4072] [client 192.168.56.1:59461] PHP Stack trace:
+[Sun Jul 09 18:33:52.767372 2017] [:error] [pid 4072] [client 192.168.56.1:59461] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:33:52.767376 2017] [:error] [pid 4072] [client 192.168.56.1:59461] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:33:52.767380 2017] [:error] [pid 4072] [client 192.168.56.1:59461] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:33:52.767383 2017] [:error] [pid 4072] [client 192.168.56.1:59461] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:33:54.064570 2017] [:error] [pid 4215] [client 192.168.56.1:59462] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:33:54.064642 2017] [:error] [pid 4215] [client 192.168.56.1:59462] PHP Stack trace:
+[Sun Jul 09 18:33:54.064668 2017] [:error] [pid 4215] [client 192.168.56.1:59462] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:33:54.064688 2017] [:error] [pid 4215] [client 192.168.56.1:59462] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:33:54.064705 2017] [:error] [pid 4215] [client 192.168.56.1:59462] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:33:54.064721 2017] [:error] [pid 4215] [client 192.168.56.1:59462] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:33:54.508148 2017] [:error] [pid 3586] [client 192.168.56.1:59464] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:33:54.508195 2017] [:error] [pid 3586] [client 192.168.56.1:59464] PHP Stack trace:
+[Sun Jul 09 18:33:54.508211 2017] [:error] [pid 3586] [client 192.168.56.1:59464] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:33:54.508224 2017] [:error] [pid 3586] [client 192.168.56.1:59464] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:33:54.508234 2017] [:error] [pid 3586] [client 192.168.56.1:59464] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:33:54.508245 2017] [:error] [pid 3586] [client 192.168.56.1:59464] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:33:54.687536 2017] [:error] [pid 4216] [client 192.168.56.1:59465] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:33:54.687576 2017] [:error] [pid 4216] [client 192.168.56.1:59465] PHP Stack trace:
+[Sun Jul 09 18:33:54.687593 2017] [:error] [pid 4216] [client 192.168.56.1:59465] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:33:54.687605 2017] [:error] [pid 4216] [client 192.168.56.1:59465] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:33:54.687616 2017] [:error] [pid 4216] [client 192.168.56.1:59465] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:33:54.687626 2017] [:error] [pid 4216] [client 192.168.56.1:59465] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 18:57:28.635382 2017] [:error] [pid 4072] [client 192.168.56.1:59500] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 18:57:28.635404 2017] [:error] [pid 4072] [client 192.168.56.1:59500] PHP Stack trace:
+[Sun Jul 09 18:57:28.635410 2017] [:error] [pid 4072] [client 192.168.56.1:59500] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 18:57:28.635414 2017] [:error] [pid 4072] [client 192.168.56.1:59500] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 18:57:28.635418 2017] [:error] [pid 4072] [client 192.168.56.1:59500] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 18:57:28.635421 2017] [:error] [pid 4072] [client 192.168.56.1:59500] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:00:56.446362 2017] [:error] [pid 882] [client 192.168.56.1:59858] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:00:56.446409 2017] [:error] [pid 882] [client 192.168.56.1:59858] PHP Stack trace:
+[Sun Jul 09 19:00:56.446484 2017] [:error] [pid 882] [client 192.168.56.1:59858] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:00:56.446507 2017] [:error] [pid 882] [client 192.168.56.1:59858] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:00:56.446520 2017] [:error] [pid 882] [client 192.168.56.1:59858] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:00:56.446554 2017] [:error] [pid 882] [client 192.168.56.1:59858] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:01:29.255490 2017] [:error] [pid 4741] [client 192.168.56.1:59907] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:01:29.255511 2017] [:error] [pid 4741] [client 192.168.56.1:59907] PHP Stack trace:
+[Sun Jul 09 19:01:29.255517 2017] [:error] [pid 4741] [client 192.168.56.1:59907] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:01:29.255521 2017] [:error] [pid 4741] [client 192.168.56.1:59907] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:01:29.255525 2017] [:error] [pid 4741] [client 192.168.56.1:59907] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:01:29.255528 2017] [:error] [pid 4741] [client 192.168.56.1:59907] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:03:37.982810 2017] [:error] [pid 4215] [client 192.168.56.1:60119] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:03:37.982865 2017] [:error] [pid 4215] [client 192.168.56.1:60119] PHP Stack trace:
+[Sun Jul 09 19:03:37.982883 2017] [:error] [pid 4215] [client 192.168.56.1:60119] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:03:37.982897 2017] [:error] [pid 4215] [client 192.168.56.1:60119] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:03:37.982952 2017] [:error] [pid 4215] [client 192.168.56.1:60119] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:03:37.982970 2017] [:error] [pid 4215] [client 192.168.56.1:60119] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:06:49.490736 2017] [:error] [pid 4216] [client 192.168.56.1:60401] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:06:49.490753 2017] [:error] [pid 4216] [client 192.168.56.1:60401] PHP Stack trace:
+[Sun Jul 09 19:06:49.490758 2017] [:error] [pid 4216] [client 192.168.56.1:60401] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:06:49.490762 2017] [:error] [pid 4216] [client 192.168.56.1:60401] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:06:49.490764 2017] [:error] [pid 4216] [client 192.168.56.1:60401] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:06:49.490768 2017] [:error] [pid 4216] [client 192.168.56.1:60401] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:06:55.774774 2017] [:error] [pid 3506] [client 192.168.56.1:60402] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:06:55.774825 2017] [:error] [pid 3506] [client 192.168.56.1:60402] PHP Stack trace:, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:06:55.774843 2017] [:error] [pid 3506] [client 192.168.56.1:60402] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:06:55.774857 2017] [:error] [pid 3506] [client 192.168.56.1:60402] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:06:55.774885 2017] [:error] [pid 3506] [client 192.168.56.1:60402] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:06:55.774897 2017] [:error] [pid 3506] [client 192.168.56.1:60402] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:06:58.804915 2017] [:error] [pid 4217] [client 192.168.56.1:60403] script '/var/www/estoque/products/add.php' not found or unable to stat, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:09:05.304306 2017] [:error] [pid 882] [client 192.168.56.1:60444] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:09:05.304344 2017] [:error] [pid 882] [client 192.168.56.1:60444] PHP Stack trace:, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:09:05.304359 2017] [:error] [pid 882] [client 192.168.56.1:60444] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:09:05.304370 2017] [:error] [pid 882] [client 192.168.56.1:60444] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:09:05.304380 2017] [:error] [pid 882] [client 192.168.56.1:60444] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:09:05.304389 2017] [:error] [pid 882] [client 192.168.56.1:60444] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:09:09.799948 2017] [:error] [pid 3506] [client 192.168.56.1:60446] script '/var/www/estoque/products/add.php' not found or unable to stat, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:09:16.873783 2017] [:error] [pid 3506] [client 192.168.56.1:60446] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:09:16.873839 2017] [:error] [pid 3506] [client 192.168.56.1:60446] PHP Stack trace:, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:09:16.873858 2017] [:error] [pid 3506] [client 192.168.56.1:60446] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:09:16.873872 2017] [:error] [pid 3506] [client 192.168.56.1:60446] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:09:16.873884 2017] [:error] [pid 3506] [client 192.168.56.1:60446] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:09:16.873895 2017] [:error] [pid 3506] [client 192.168.56.1:60446] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:18:25.331383 2017] [:error] [pid 3506] [client 192.168.56.1:60554] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:18:25.331432 2017] [:error] [pid 3506] [client 192.168.56.1:60554] PHP Stack trace:, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:18:25.331450 2017] [:error] [pid 3506] [client 192.168.56.1:60554] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:18:25.331464 2017] [:error] [pid 3506] [client 192.168.56.1:60554] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:18:25.331476 2017] [:error] [pid 3506] [client 192.168.56.1:60554] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:18:25.331488 2017] [:error] [pid 3506] [client 192.168.56.1:60554] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:18:45.653479 2017] [:error] [pid 3586] [client 192.168.56.1:60566] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:18:45.653506 2017] [:error] [pid 3586] [client 192.168.56.1:60566] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:18:45.653516 2017] [:error] [pid 3586] [client 192.168.56.1:60566] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:18:45.653537 2017] [:error] [pid 3586] [client 192.168.56.1:60566] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:18:45.653543 2017] [:error] [pid 3586] [client 192.168.56.1:60566] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:18:45.653549 2017] [:error] [pid 3586] [client 192.168.56.1:60566] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:20:57.588740 2017] [:error] [pid 3586] [client 192.168.56.1:60634] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:20:57.588810 2017] [:error] [pid 3586] [client 192.168.56.1:60634] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:20:57.588838 2017] [:error] [pid 3586] [client 192.168.56.1:60634] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:20:57.588853 2017] [:error] [pid 3586] [client 192.168.56.1:60634] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:20:57.588865 2017] [:error] [pid 3586] [client 192.168.56.1:60634] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:20:57.588892 2017] [:error] [pid 3586] [client 192.168.56.1:60634] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:33:22.207495 2017] [:error] [pid 4217] [client 192.168.56.1:60834] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:33:22.207550 2017] [:error] [pid 4217] [client 192.168.56.1:60834] PHP Stack trace:
+[Sun Jul 09 19:33:22.207569 2017] [:error] [pid 4217] [client 192.168.56.1:60834] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:33:22.207583 2017] [:error] [pid 4217] [client 192.168.56.1:60834] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:33:22.207595 2017] [:error] [pid 4217] [client 192.168.56.1:60834] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:33:22.207607 2017] [:error] [pid 4217] [client 192.168.56.1:60834] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:33:22.827688 2017] [:error] [pid 882] [client 192.168.56.1:60835] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:33:22.827753 2017] [:error] [pid 882] [client 192.168.56.1:60835] PHP Stack trace:
+[Sun Jul 09 19:33:22.827771 2017] [:error] [pid 882] [client 192.168.56.1:60835] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:33:22.827784 2017] [:error] [pid 882] [client 192.168.56.1:60835] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:33:22.827796 2017] [:error] [pid 882] [client 192.168.56.1:60835] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:33:22.827807 2017] [:error] [pid 882] [client 192.168.56.1:60835] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:33:22.992418 2017] [:error] [pid 4741] [client 192.168.56.1:60836] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:33:22.992480 2017] [:error] [pid 4741] [client 192.168.56.1:60836] PHP Stack trace:
+[Sun Jul 09 19:33:22.992498 2017] [:error] [pid 4741] [client 192.168.56.1:60836] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:33:22.992511 2017] [:error] [pid 4741] [client 192.168.56.1:60836] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:33:22.992555 2017] [:error] [pid 4741] [client 192.168.56.1:60836] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:33:22.992567 2017] [:error] [pid 4741] [client 192.168.56.1:60836] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:34:15.436431 2017] [:error] [pid 3506] [client 192.168.56.1:60997] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:34:15.436478 2017] [:error] [pid 3506] [client 192.168.56.1:60997] PHP Stack trace:
+[Sun Jul 09 19:34:15.436496 2017] [:error] [pid 3506] [client 192.168.56.1:60997] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:34:15.436509 2017] [:error] [pid 3506] [client 192.168.56.1:60997] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:34:15.436521 2017] [:error] [pid 3506] [client 192.168.56.1:60997] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:34:15.436532 2017] [:error] [pid 3506] [client 192.168.56.1:60997] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:34:16.107814 2017] [:error] [pid 3507] [client 192.168.56.1:60998] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:34:16.107871 2017] [:error] [pid 3507] [client 192.168.56.1:60998] PHP Stack trace:
+[Sun Jul 09 19:34:16.107888 2017] [:error] [pid 3507] [client 192.168.56.1:60998] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:34:16.107902 2017] [:error] [pid 3507] [client 192.168.56.1:60998] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:34:16.107914 2017] [:error] [pid 3507] [client 192.168.56.1:60998] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:34:16.107926 2017] [:error] [pid 3507] [client 192.168.56.1:60998] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:34:18.371618 2017] [:error] [pid 4216] [client 192.168.56.1:60999] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:34:18.371637 2017] [:error] [pid 4216] [client 192.168.56.1:60999] PHP Stack trace:
+[Sun Jul 09 19:34:18.371643 2017] [:error] [pid 4216] [client 192.168.56.1:60999] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:34:18.371647 2017] [:error] [pid 4216] [client 192.168.56.1:60999] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:34:18.371651 2017] [:error] [pid 4216] [client 192.168.56.1:60999] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:34:18.371654 2017] [:error] [pid 4216] [client 192.168.56.1:60999] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:34:33.728007 2017] [:error] [pid 882] [client 192.168.56.1:61032] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:34:33.728031 2017] [:error] [pid 882] [client 192.168.56.1:61032] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:34:33.728040 2017] [:error] [pid 882] [client 192.168.56.1:61032] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:34:33.728046 2017] [:error] [pid 882] [client 192.168.56.1:61032] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:34:33.728052 2017] [:error] [pid 882] [client 192.168.56.1:61032] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:34:33.728058 2017] [:error] [pid 882] [client 192.168.56.1:61032] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:34:39.179964 2017] [:error] [pid 3586] [client 192.168.56.1:61033] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:34:39.180139 2017] [:error] [pid 3586] [client 192.168.56.1:61033] PHP Stack trace:, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:34:39.180164 2017] [:error] [pid 3586] [client 192.168.56.1:61033] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:34:39.180177 2017] [:error] [pid 3586] [client 192.168.56.1:61033] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:34:39.180190 2017] [:error] [pid 3586] [client 192.168.56.1:61033] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:34:39.180201 2017] [:error] [pid 3586] [client 192.168.56.1:61033] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/index.php
+[Sun Jul 09 19:34:49.086422 2017] [:error] [pid 4217] [client 192.168.56.1:61043] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:34:49.086441 2017] [:error] [pid 4217] [client 192.168.56.1:61043] PHP Stack trace:
+[Sun Jul 09 19:34:49.086446 2017] [:error] [pid 4217] [client 192.168.56.1:61043] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:34:49.086450 2017] [:error] [pid 4217] [client 192.168.56.1:61043] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:34:49.086454 2017] [:error] [pid 4217] [client 192.168.56.1:61043] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:34:49.086457 2017] [:error] [pid 4217] [client 192.168.56.1:61043] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:54:33.872059 2017] [:error] [pid 4215] [client 192.168.56.1:61386] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:54:33.872078 2017] [:error] [pid 4215] [client 192.168.56.1:61386] PHP Stack trace:
+[Sun Jul 09 19:54:33.872083 2017] [:error] [pid 4215] [client 192.168.56.1:61386] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:54:33.872086 2017] [:error] [pid 4215] [client 192.168.56.1:61386] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:54:33.872089 2017] [:error] [pid 4215] [client 192.168.56.1:61386] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:54:33.872092 2017] [:error] [pid 4215] [client 192.168.56.1:61386] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:54:39.040425 2017] [:error] [pid 5323] [client 192.168.56.1:61387] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:54:39.040450 2017] [:error] [pid 5323] [client 192.168.56.1:61387] PHP Stack trace:
+[Sun Jul 09 19:54:39.040456 2017] [:error] [pid 5323] [client 192.168.56.1:61387] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:54:39.040460 2017] [:error] [pid 5323] [client 192.168.56.1:61387] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:54:39.040464 2017] [:error] [pid 5323] [client 192.168.56.1:61387] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:54:39.040468 2017] [:error] [pid 5323] [client 192.168.56.1:61387] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:54:49.336924 2017] [:error] [pid 5224] [client 192.168.56.1:61391] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:54:49.336943 2017] [:error] [pid 5224] [client 192.168.56.1:61391] PHP Stack trace:
+[Sun Jul 09 19:54:49.336949 2017] [:error] [pid 5224] [client 192.168.56.1:61391] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 19:54:49.336962 2017] [:error] [pid 5224] [client 192.168.56.1:61391] PHP   2. index() /var/www/estoque/products/index.php:3
+[Sun Jul 09 19:54:49.336966 2017] [:error] [pid 5224] [client 192.168.56.1:61391] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Sun Jul 09 19:54:49.336969 2017] [:error] [pid 5224] [client 192.168.56.1:61391] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Sun Jul 09 19:54:54.168892 2017] [:error] [pid 4215] [client 192.168.56.1:61394] PHP Notice:  Undefined index: id in /var/www/estoque/products/view.php on line 3
+[Sun Jul 09 19:54:54.168911 2017] [:error] [pid 4215] [client 192.168.56.1:61394] PHP Stack trace:
+[Sun Jul 09 19:54:54.168917 2017] [:error] [pid 4215] [client 192.168.56.1:61394] PHP   1. {main}() /var/www/estoque/products/view.php:0
+[Sun Jul 09 19:54:54.169144 2017] [:error] [pid 4215] [client 192.168.56.1:61394] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Sun Jul 09 19:54:54.169152 2017] [:error] [pid 4215] [client 192.168.56.1:61394] PHP Stack trace:
+[Sun Jul 09 19:54:54.169156 2017] [:error] [pid 4215] [client 192.168.56.1:61394] PHP   1. {main}() /var/www/estoque/products/view.php:0
+[Sun Jul 09 19:54:54.169160 2017] [:error] [pid 4215] [client 192.168.56.1:61394] PHP   2. view() /var/www/estoque/products/view.php:3
+[Sun Jul 09 19:54:54.169163 2017] [:error] [pid 4215] [client 192.168.56.1:61394] PHP   3. find() /var/www/estoque/products/functions.php:57
+[Sun Jul 09 19:55:23.457156 2017] [:error] [pid 882] [client 192.168.56.1:61431] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:55:23.457227 2017] [:error] [pid 882] [client 192.168.56.1:61431] PHP Stack trace:, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:55:23.457247 2017] [:error] [pid 882] [client 192.168.56.1:61431] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:55:23.457261 2017] [:error] [pid 882] [client 192.168.56.1:61431] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:55:23.457273 2017] [:error] [pid 882] [client 192.168.56.1:61431] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:55:23.457285 2017] [:error] [pid 882] [client 192.168.56.1:61431] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/
+[Sun Jul 09 19:55:37.160633 2017] [:error] [pid 3506] [client 192.168.56.1:61448] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:55:37.160690 2017] [:error] [pid 3506] [client 192.168.56.1:61448] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:55:37.160710 2017] [:error] [pid 3506] [client 192.168.56.1:61448] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:55:37.160743 2017] [:error] [pid 3506] [client 192.168.56.1:61448] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:55:37.160756 2017] [:error] [pid 3506] [client 192.168.56.1:61448] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 19:55:37.160768 2017] [:error] [pid 3506] [client 192.168.56.1:61448] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Sun Jul 09 20:23:39.854477 2017] [:error] [pid 4217] [client 192.168.56.1:64232] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Sun Jul 09 20:23:39.854528 2017] [:error] [pid 4217] [client 192.168.56.1:64232] PHP Stack trace:
+[Sun Jul 09 20:23:39.854567 2017] [:error] [pid 4217] [client 192.168.56.1:64232] PHP   1. {main}() /var/www/estoque/index.php:0
+[Sun Jul 09 20:23:56.605276 2017] [:error] [pid 3586] [client 192.168.56.1:64260] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Sun Jul 09 20:23:56.605307 2017] [:error] [pid 3586] [client 192.168.56.1:64260] PHP Stack trace:
+[Sun Jul 09 20:23:56.605317 2017] [:error] [pid 3586] [client 192.168.56.1:64260] PHP   1. {main}() /var/www/estoque/index.php:0
+[Sun Jul 09 20:25:12.147203 2017] [:error] [pid 4216] [client 192.168.56.1:64381] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Sun Jul 09 20:25:12.147253 2017] [:error] [pid 4216] [client 192.168.56.1:64381] PHP Stack trace:
+[Sun Jul 09 20:25:12.147271 2017] [:error] [pid 4216] [client 192.168.56.1:64381] PHP   1. {main}() /var/www/estoque/index.php:0
+[Sun Jul 09 20:25:28.233943 2017] [:error] [pid 882] [client 192.168.56.1:64403] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Sun Jul 09 20:25:28.234006 2017] [:error] [pid 882] [client 192.168.56.1:64403] PHP Stack trace:
+[Sun Jul 09 20:25:28.234025 2017] [:error] [pid 882] [client 192.168.56.1:64403] PHP   1. {main}() /var/www/estoque/index.php:0
+[Sun Jul 09 20:25:33.776046 2017] [:error] [pid 4741] [client 192.168.56.1:64413] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Sun Jul 09 20:25:33.776071 2017] [:error] [pid 4741] [client 192.168.56.1:64413] PHP Stack trace:
+[Sun Jul 09 20:25:33.776077 2017] [:error] [pid 4741] [client 192.168.56.1:64413] PHP   1. {main}() /var/www/estoque/index.php:0
+[Sun Jul 09 20:25:38.601021 2017] [:error] [pid 3506] [client 192.168.56.1:64414] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Sun Jul 09 20:25:38.601047 2017] [:error] [pid 3506] [client 192.168.56.1:64414] PHP Stack trace:
+[Sun Jul 09 20:25:38.601053 2017] [:error] [pid 3506] [client 192.168.56.1:64414] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Sun Jul 09 20:25:38.601057 2017] [:error] [pid 3506] [client 192.168.56.1:64414] PHP   2. require_once() /var/www/estoque/products/index.php:2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               [Mon Jul 10 00:49:06.480843 2017] [ssl:warn] [pid 610] AH01909: localhost:12322:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 10 00:49:06.481580 2017] [ssl:warn] [pid 610] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 10 00:49:06.568456 2017] [:error] [pid 638] python_init: Python version mismatch, expected '2.7.5+', found '2.7.9'.
+[Mon Jul 10 00:49:06.570908 2017] [:error] [pid 638] python_init: Python executable found '/usr/bin/python'.
+[Mon Jul 10 00:49:06.570919 2017] [:error] [pid 638] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Mon Jul 10 00:49:06.570928 2017] [:notice] [pid 638] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Mon Jul 10 00:49:06.570930 2017] [:notice] [pid 638] mod_python: using mutex_directory /tmp 
+[Mon Jul 10 00:49:06.598192 2017] [ssl:warn] [pid 638] AH01909: localhost:12322:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 10 00:49:06.598416 2017] [ssl:warn] [pid 638] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 10 00:49:06.599865 2017] [mpm_prefork:notice] [pid 638] AH00163: Apache/2.4.10 (Debian) mod_python/3.3.1 Python/2.7.9 OpenSSL/1.0.1t mod_perl/2.0.9dev Perl/v5.20.2 configured -- resuming normal operations
+[Mon Jul 10 00:49:06.599879 2017] [core:notice] [pid 638] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jul 10 00:49:52.099769 2017] [:error] [pid 834] [client 192.168.56.1:64725] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 00:49:52.099796 2017] [:error] [pid 834] [client 192.168.56.1:64725] PHP Stack trace:
+[Mon Jul 10 00:49:52.099802 2017] [:error] [pid 834] [client 192.168.56.1:64725] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 00:50:16.532747 2017] [:error] [pid 833] [client 192.168.56.1:64764] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 00:50:16.532826 2017] [:error] [pid 833] [client 192.168.56.1:64764] PHP Stack trace:
+[Mon Jul 10 00:50:16.532850 2017] [:error] [pid 833] [client 192.168.56.1:64764] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 00:50:16.532864 2017] [:error] [pid 833] [client 192.168.56.1:64764] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 00:54:06.129494 2017] [:error] [pid 832] [client 192.168.56.1:65144] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 00:54:06.129539 2017] [:error] [pid 832] [client 192.168.56.1:65144] PHP Stack trace:
+[Mon Jul 10 00:54:06.129550 2017] [:error] [pid 832] [client 192.168.56.1:65144] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 00:54:20.833771 2017] [:error] [pid 1440] [client 192.168.56.1:65164] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 00:54:20.833797 2017] [:error] [pid 1440] [client 192.168.56.1:65164] PHP Stack trace:
+[Mon Jul 10 00:54:20.833803 2017] [:error] [pid 1440] [client 192.168.56.1:65164] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 00:54:20.833807 2017] [:error] [pid 1440] [client 192.168.56.1:65164] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 00:54:34.206558 2017] [:error] [pid 1441] [client 192.168.56.1:65185] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 00:54:34.206602 2017] [:error] [pid 1441] [client 192.168.56.1:65185] PHP Stack trace:
+[Mon Jul 10 00:54:34.206608 2017] [:error] [pid 1441] [client 192.168.56.1:65185] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 00:54:34.206612 2017] [:error] [pid 1441] [client 192.168.56.1:65185] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 00:58:24.411632 2017] [:error] [pid 835] [client 192.168.56.1:49156] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123, referer: http://192.168.56.101/
+[Mon Jul 10 00:58:24.411695 2017] [:error] [pid 835] [client 192.168.56.1:49156] PHP Stack trace:, referer: http://192.168.56.101/
+[Mon Jul 10 00:58:24.411713 2017] [:error] [pid 835] [client 192.168.56.1:49156] PHP   1. {main}() /var/www/estoque/index.php:0, referer: http://192.168.56.101/
+[Mon Jul 10 00:59:30.926776 2017] [:error] [pid 1441] [client 192.168.56.1:49306] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123, referer: https://192.168.56.101/
+[Mon Jul 10 00:59:30.926826 2017] [:error] [pid 1441] [client 192.168.56.1:49306] PHP Stack trace:, referer: https://192.168.56.101/
+[Mon Jul 10 00:59:30.926844 2017] [:error] [pid 1441] [client 192.168.56.1:49306] PHP   1. {main}() /var/www/estoque/index.php:0, referer: https://192.168.56.101/
+[Mon Jul 10 00:59:40.224178 2017] [:error] [pid 831] [client 192.168.56.1:49332] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 00:59:40.224209 2017] [:error] [pid 831] [client 192.168.56.1:49332] PHP Stack trace:
+[Mon Jul 10 00:59:40.224216 2017] [:error] [pid 831] [client 192.168.56.1:49332] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 00:59:40.224221 2017] [:error] [pid 831] [client 192.168.56.1:49332] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 01:02:04.341761 2017] [:error] [pid 834] [client 192.168.56.1:49360] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:02:04.341798 2017] [:error] [pid 834] [client 192.168.56.1:49360] PHP Stack trace:
+[Mon Jul 10 01:02:04.341810 2017] [:error] [pid 834] [client 192.168.56.1:49360] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:02:04.341818 2017] [:error] [pid 834] [client 192.168.56.1:49360] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 01:06:21.946472 2017] [:error] [pid 1708] [client 192.168.56.1:49403] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:06:21.946492 2017] [:error] [pid 1708] [client 192.168.56.1:49403] PHP Stack trace:
+[Mon Jul 10 01:06:21.946498 2017] [:error] [pid 1708] [client 192.168.56.1:49403] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:06:21.946503 2017] [:error] [pid 1708] [client 192.168.56.1:49403] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 01:06:23.449776 2017] [:error] [pid 835] [client 192.168.56.1:49408] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:06:23.449824 2017] [:error] [pid 835] [client 192.168.56.1:49408] PHP Stack trace:
+[Mon Jul 10 01:06:23.449842 2017] [:error] [pid 835] [client 192.168.56.1:49408] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:06:23.449856 2017] [:error] [pid 835] [client 192.168.56.1:49408] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 01:06:38.092245 2017] [:error] [pid 1708] [client 192.168.56.1:49433] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:06:38.092302 2017] [:error] [pid 1708] [client 192.168.56.1:49433] PHP Stack trace:
+[Mon Jul 10 01:06:38.092313 2017] [:error] [pid 1708] [client 192.168.56.1:49433] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:06:38.092320 2017] [:error] [pid 1708] [client 192.168.56.1:49433] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 01:06:44.583857 2017] [:error] [pid 1440] [client 192.168.56.1:49444] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:06:44.583875 2017] [:error] [pid 1440] [client 192.168.56.1:49444] PHP Stack trace:
+[Mon Jul 10 01:06:44.583879 2017] [:error] [pid 1440] [client 192.168.56.1:49444] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:06:44.583883 2017] [:error] [pid 1440] [client 192.168.56.1:49444] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 01:07:12.975020 2017] [:error] [pid 833] [client 192.168.56.1:49491] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:07:12.975037 2017] [:error] [pid 833] [client 192.168.56.1:49491] PHP Stack trace:
+[Mon Jul 10 01:07:12.975042 2017] [:error] [pid 833] [client 192.168.56.1:49491] PHP   1. {main}() /var/www/estoque/products/add.php:0
+[Mon Jul 10 01:07:12.975047 2017] [:error] [pid 833] [client 192.168.56.1:49491] PHP   2. require_once() /var/www/estoque/products/add.php:2
+[Mon Jul 10 01:07:16.755290 2017] [:error] [pid 1440] [client 192.168.56.1:49492] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:07:16.755306 2017] [:error] [pid 1440] [client 192.168.56.1:49492] PHP Stack trace:
+[Mon Jul 10 01:07:16.755312 2017] [:error] [pid 1440] [client 192.168.56.1:49492] PHP   1. {main}() /var/www/estoque/products/edit.php:0
+[Mon Jul 10 01:07:16.755326 2017] [:error] [pid 1440] [client 192.168.56.1:49492] PHP   2. require_once() /var/www/estoque/products/edit.php:2
+[Mon Jul 10 01:07:19.883208 2017] [:error] [pid 1441] [client 192.168.56.1:49493] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:07:19.883228 2017] [:error] [pid 1441] [client 192.168.56.1:49493] PHP Stack trace:
+[Mon Jul 10 01:07:19.883234 2017] [:error] [pid 1441] [client 192.168.56.1:49493] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:07:19.883238 2017] [:error] [pid 1441] [client 192.168.56.1:49493] PHP   2. require_once() /var/www/estoque/products/index.php:2
+[Mon Jul 10 01:07:25.500265 2017] [:error] [pid 1708] [client 192.168.56.1:49512] PHP Parse error:  syntax error, unexpected '<' in /var/www/estoque/inc/database.php on line 123
+[Mon Jul 10 01:07:25.500281 2017] [:error] [pid 1708] [client 192.168.56.1:49512] PHP Stack trace:
+[Mon Jul 10 01:07:25.500286 2017] [:error] [pid 1708] [client 192.168.56.1:49512] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:13:54.458535 2017] [:error] [pid 1440] [client 192.168.56.1:50263] PHP Warning:  include(modal.php): failed to open stream: No such file or directory in /var/www/estoque/index.php on line 47
+[Mon Jul 10 01:13:54.458571 2017] [:error] [pid 1440] [client 192.168.56.1:50263] PHP Stack trace:
+[Mon Jul 10 01:13:54.458577 2017] [:error] [pid 1440] [client 192.168.56.1:50263] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:13:54.458587 2017] [:error] [pid 1440] [client 192.168.56.1:50263] PHP Warning:  include(): Failed opening 'modal.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/estoque/index.php on line 47
+[Mon Jul 10 01:13:54.458599 2017] [:error] [pid 1440] [client 192.168.56.1:50263] PHP Stack trace:
+[Mon Jul 10 01:13:54.458602 2017] [:error] [pid 1440] [client 192.168.56.1:50263] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:13:57.118695 2017] [:error] [pid 1849] [client 192.168.56.1:50265] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:13:57.118774 2017] [:error] [pid 1849] [client 192.168.56.1:50265] PHP Stack trace:, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:13:57.118806 2017] [:error] [pid 1849] [client 192.168.56.1:50265] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:13:57.118831 2017] [:error] [pid 1849] [client 192.168.56.1:50265] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:13:57.118851 2017] [:error] [pid 1849] [client 192.168.56.1:50265] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:13:57.118871 2017] [:error] [pid 1849] [client 192.168.56.1:50265] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:14:10.406895 2017] [:error] [pid 1441] [client 192.168.56.1:50292] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:14:10.406941 2017] [:error] [pid 1441] [client 192.168.56.1:50292] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:14:10.407007 2017] [:error] [pid 1441] [client 192.168.56.1:50292] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:14:10.407028 2017] [:error] [pid 1441] [client 192.168.56.1:50292] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:14:10.407040 2017] [:error] [pid 1441] [client 192.168.56.1:50292] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:14:10.407072 2017] [:error] [pid 1441] [client 192.168.56.1:50292] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:17:18.431454 2017] [:error] [pid 1708] [client 192.168.56.1:50358] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:17:18.431472 2017] [:error] [pid 1708] [client 192.168.56.1:50358] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:17:18.431480 2017] [:error] [pid 1708] [client 192.168.56.1:50358] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:17:18.431486 2017] [:error] [pid 1708] [client 192.168.56.1:50358] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:17:18.431490 2017] [:error] [pid 1708] [client 192.168.56.1:50358] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:17:18.431495 2017] [:error] [pid 1708] [client 192.168.56.1:50358] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:17:23.443567 2017] [:error] [pid 832] [client 192.168.56.1:50359] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Mon Jul 10 01:17:23.443588 2017] [:error] [pid 832] [client 192.168.56.1:50359] PHP Stack trace:
+[Mon Jul 10 01:17:23.443593 2017] [:error] [pid 832] [client 192.168.56.1:50359] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:17:23.443597 2017] [:error] [pid 832] [client 192.168.56.1:50359] PHP   2. index() /var/www/estoque/products/index.php:3
+[Mon Jul 10 01:17:23.443601 2017] [:error] [pid 832] [client 192.168.56.1:50359] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Mon Jul 10 01:17:23.443604 2017] [:error] [pid 832] [client 192.168.56.1:50359] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Mon Jul 10 01:17:34.312246 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP Warning:  include(modal.php): failed to open stream: No such file or directory in /var/www/estoque/index.php on line 47
+[Mon Jul 10 01:17:34.312261 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP Stack trace:
+[Mon Jul 10 01:17:34.312267 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:17:34.312278 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP Warning:  include(): Failed opening 'modal.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/estoque/index.php on line 47
+[Mon Jul 10 01:17:34.312280 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP Stack trace:
+[Mon Jul 10 01:17:34.312284 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:17:36.498749 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:17:36.498801 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP Stack trace:, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:17:36.498840 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:17:36.498861 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:17:36.498880 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:17:36.498946 2017] [:error] [pid 1441] [client 192.168.56.1:50367] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/index.php
+[Mon Jul 10 01:17:41.273467 2017] [:error] [pid 832] [client 192.168.56.1:50370] PHP Notice:  Undefined index: id in /var/www/estoque/products/view.php on line 3
+[Mon Jul 10 01:17:41.273483 2017] [:error] [pid 832] [client 192.168.56.1:50370] PHP Stack trace:
+[Mon Jul 10 01:17:41.273488 2017] [:error] [pid 832] [client 192.168.56.1:50370] PHP   1. {main}() /var/www/estoque/products/view.php:0
+[Mon Jul 10 01:17:41.273699 2017] [:error] [pid 832] [client 192.168.56.1:50370] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Mon Jul 10 01:17:41.273706 2017] [:error] [pid 832] [client 192.168.56.1:50370] PHP Stack trace:
+[Mon Jul 10 01:17:41.273709 2017] [:error] [pid 832] [client 192.168.56.1:50370] PHP   1. {main}() /var/www/estoque/products/view.php:0
+[Mon Jul 10 01:17:41.273713 2017] [:error] [pid 832] [client 192.168.56.1:50370] PHP   2. view() /var/www/estoque/products/view.php:3
+[Mon Jul 10 01:17:41.273715 2017] [:error] [pid 832] [client 192.168.56.1:50370] PHP   3. find() /var/www/estoque/products/functions.php:57
+[Mon Jul 10 01:17:48.637634 2017] [:error] [pid 1440] [client 192.168.56.1:50372] script '/var/www/estoque/products/excluir.php' not found or unable to stat
+[Mon Jul 10 01:21:59.492493 2017] [:error] [pid 831] [client 192.168.56.1:50459] PHP Warning:  include(modal.php): failed to open stream: No such file or directory in /var/www/estoque/index.php on line 47
+[Mon Jul 10 01:21:59.492512 2017] [:error] [pid 831] [client 192.168.56.1:50459] PHP Stack trace:
+[Mon Jul 10 01:21:59.492516 2017] [:error] [pid 831] [client 192.168.56.1:50459] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:21:59.492523 2017] [:error] [pid 831] [client 192.168.56.1:50459] PHP Warning:  include(): Failed opening 'modal.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/estoque/index.php on line 47
+[Mon Jul 10 01:21:59.492525 2017] [:error] [pid 831] [client 192.168.56.1:50459] PHP Stack trace:
+[Mon Jul 10 01:21:59.492527 2017] [:error] [pid 831] [client 192.168.56.1:50459] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:25:03.581739 2017] [:error] [pid 834] [client 192.168.56.1:50618] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:25:03.582203 2017] [:error] [pid 834] [client 192.168.56.1:50618] PHP Stack trace:, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:25:03.582215 2017] [:error] [pid 834] [client 192.168.56.1:50618] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:25:03.582219 2017] [:error] [pid 834] [client 192.168.56.1:50618] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:25:03.582222 2017] [:error] [pid 834] [client 192.168.56.1:50618] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:25:03.582226 2017] [:error] [pid 834] [client 192.168.56.1:50618] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:26:55.066697 2017] [:error] [pid 1850] [client 192.168.56.1:50657] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Mon Jul 10 01:26:55.066724 2017] [:error] [pid 1850] [client 192.168.56.1:50657] PHP Stack trace:
+[Mon Jul 10 01:26:55.066730 2017] [:error] [pid 1850] [client 192.168.56.1:50657] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:26:55.066735 2017] [:error] [pid 1850] [client 192.168.56.1:50657] PHP   2. index() /var/www/estoque/products/index.php:3
+[Mon Jul 10 01:26:55.066748 2017] [:error] [pid 1850] [client 192.168.56.1:50657] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Mon Jul 10 01:26:55.066752 2017] [:error] [pid 1850] [client 192.168.56.1:50657] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Mon Jul 10 01:30:27.637257 2017] [:error] [pid 1850] [client 192.168.56.1:50725] PHP Warning:  include(modal.php): failed to open stream: No such file or directory in /var/www/estoque/index.php on line 47
+[Mon Jul 10 01:30:27.637278 2017] [:error] [pid 1850] [client 192.168.56.1:50725] PHP Stack trace:
+[Mon Jul 10 01:30:27.637284 2017] [:error] [pid 1850] [client 192.168.56.1:50725] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:30:27.637296 2017] [:error] [pid 1850] [client 192.168.56.1:50725] PHP Warning:  include(): Failed opening 'modal.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/estoque/index.php on line 47
+[Mon Jul 10 01:30:27.637300 2017] [:error] [pid 1850] [client 192.168.56.1:50725] PHP Stack trace:
+[Mon Jul 10 01:30:27.637304 2017] [:error] [pid 1850] [client 192.168.56.1:50725] PHP   1. {main}() /var/www/estoque/index.php:0
+[Mon Jul 10 01:34:52.286101 2017] [:error] [pid 1851] [client 192.168.56.1:51186] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:34:52.286126 2017] [:error] [pid 1851] [client 192.168.56.1:51186] PHP Stack trace:, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:34:52.286131 2017] [:error] [pid 1851] [client 192.168.56.1:51186] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:34:52.286135 2017] [:error] [pid 1851] [client 192.168.56.1:51186] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:34:52.286138 2017] [:error] [pid 1851] [client 192.168.56.1:51186] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:34:52.286141 2017] [:error] [pid 1851] [client 192.168.56.1:51186] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:39:44.237271 2017] [:error] [pid 1998] [client 192.168.56.1:51236] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:39:44.237304 2017] [:error] [pid 1998] [client 192.168.56.1:51236] PHP Stack trace:, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:39:44.237316 2017] [:error] [pid 1998] [client 192.168.56.1:51236] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:39:44.237372 2017] [:error] [pid 1998] [client 192.168.56.1:51236] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:39:44.237385 2017] [:error] [pid 1998] [client 192.168.56.1:51236] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:39:44.237393 2017] [:error] [pid 1998] [client 192.168.56.1:51236] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:39:47.686172 2017] [:error] [pid 831] [client 192.168.56.1:51243] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Mon Jul 10 01:39:47.686193 2017] [:error] [pid 831] [client 192.168.56.1:51243] PHP Stack trace:
+[Mon Jul 10 01:39:47.686199 2017] [:error] [pid 831] [client 192.168.56.1:51243] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:39:47.686203 2017] [:error] [pid 831] [client 192.168.56.1:51243] PHP   2. index() /var/www/estoque/products/index.php:3
+[Mon Jul 10 01:39:47.686206 2017] [:error] [pid 831] [client 192.168.56.1:51243] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Mon Jul 10 01:39:47.686219 2017] [:error] [pid 831] [client 192.168.56.1:51243] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Mon Jul 10 01:51:53.338993 2017] [:error] [pid 834] [client 192.168.56.1:51728] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Mon Jul 10 01:51:53.339044 2017] [:error] [pid 834] [client 192.168.56.1:51728] PHP Stack trace:
+[Mon Jul 10 01:51:53.339061 2017] [:error] [pid 834] [client 192.168.56.1:51728] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:51:53.339074 2017] [:error] [pid 834] [client 192.168.56.1:51728] PHP   2. index() /var/www/estoque/products/index.php:3
+[Mon Jul 10 01:51:53.339085 2017] [:error] [pid 834] [client 192.168.56.1:51728] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Mon Jul 10 01:51:53.339096 2017] [:error] [pid 834] [client 192.168.56.1:51728] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Mon Jul 10 01:51:53.873763 2017] [:error] [pid 1850] [client 192.168.56.1:51729] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42
+[Mon Jul 10 01:51:53.873807 2017] [:error] [pid 1850] [client 192.168.56.1:51729] PHP Stack trace:
+[Mon Jul 10 01:51:53.873823 2017] [:error] [pid 1850] [client 192.168.56.1:51729] PHP   1. {main}() /var/www/estoque/products/index.php:0
+[Mon Jul 10 01:51:53.873836 2017] [:error] [pid 1850] [client 192.168.56.1:51729] PHP   2. index() /var/www/estoque/products/index.php:3
+[Mon Jul 10 01:51:53.873849 2017] [:error] [pid 1850] [client 192.168.56.1:51729] PHP   3. find_all() /var/www/estoque/products/functions.php:11
+[Mon Jul 10 01:51:53.873860 2017] [:error] [pid 1850] [client 192.168.56.1:51729] PHP   4. find() /var/www/estoque/inc/database.php:64
+[Mon Jul 10 01:52:00.403973 2017] [:error] [pid 1441] [client 192.168.56.1:51730] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:52:00.404008 2017] [:error] [pid 1441] [client 192.168.56.1:51730] PHP Stack trace:, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:52:00.404016 2017] [:error] [pid 1441] [client 192.168.56.1:51730] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:52:00.404021 2017] [:error] [pid 1441] [client 192.168.56.1:51730] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:52:00.404025 2017] [:error] [pid 1441] [client 192.168.56.1:51730] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:52:00.404030 2017] [:error] [pid 1441] [client 192.168.56.1:51730] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/
+[Mon Jul 10 01:52:32.146808 2017] [:error] [pid 832] [client 192.168.56.1:51767] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:52:32.146850 2017] [:error] [pid 832] [client 192.168.56.1:51767] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:52:32.146868 2017] [:error] [pid 832] [client 192.168.56.1:51767] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:52:32.146881 2017] [:error] [pid 832] [client 192.168.56.1:51767] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:52:32.146892 2017] [:error] [pid 832] [client 192.168.56.1:51767] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:52:32.146903 2017] [:error] [pid 832] [client 192.168.56.1:51767] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:18.836219 2017] [:error] [pid 1850] [client 192.168.56.1:51865] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:18.836990 2017] [:error] [pid 1850] [client 192.168.56.1:51865] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:18.837029 2017] [:error] [pid 1850] [client 192.168.56.1:51865] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:18.837046 2017] [:error] [pid 1850] [client 192.168.56.1:51865] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:18.837112 2017] [:error] [pid 1850] [client 192.168.56.1:51865] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:18.837129 2017] [:error] [pid 1850] [client 192.168.56.1:51865] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.375725 2017] [:error] [pid 1851] [client 192.168.56.1:51866] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.375788 2017] [:error] [pid 1851] [client 192.168.56.1:51866] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.375819 2017] [:error] [pid 1851] [client 192.168.56.1:51866] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.375842 2017] [:error] [pid 1851] [client 192.168.56.1:51866] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.375863 2017] [:error] [pid 1851] [client 192.168.56.1:51866] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.375883 2017] [:error] [pid 1851] [client 192.168.56.1:51866] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.508861 2017] [:error] [pid 1708] [client 192.168.56.1:51869] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.508878 2017] [:error] [pid 1708] [client 192.168.56.1:51869] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.508882 2017] [:error] [pid 1708] [client 192.168.56.1:51869] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.508886 2017] [:error] [pid 1708] [client 192.168.56.1:51869] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.508888 2017] [:error] [pid 1708] [client 192.168.56.1:51869] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.508891 2017] [:error] [pid 1708] [client 192.168.56.1:51869] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.668979 2017] [:error] [pid 1440] [client 192.168.56.1:51870] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.669066 2017] [:error] [pid 1440] [client 192.168.56.1:51870] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.669086 2017] [:error] [pid 1440] [client 192.168.56.1:51870] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.669118 2017] [:error] [pid 1440] [client 192.168.56.1:51870] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.669129 2017] [:error] [pid 1440] [client 192.168.56.1:51870] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.669138 2017] [:error] [pid 1440] [client 192.168.56.1:51870] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.883816 2017] [:error] [pid 1998] [client 192.168.56.1:51871] PHP Fatal error:  Call to undefined method mysqli_result::fetch_all() in /var/www/estoque/inc/database.php on line 42, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.883911 2017] [:error] [pid 1998] [client 192.168.56.1:51871] PHP Stack trace:, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.883930 2017] [:error] [pid 1998] [client 192.168.56.1:51871] PHP   1. {main}() /var/www/estoque/products/index.php:0, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.883942 2017] [:error] [pid 1998] [client 192.168.56.1:51871] PHP   2. index() /var/www/estoque/products/index.php:3, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.883954 2017] [:error] [pid 1998] [client 192.168.56.1:51871] PHP   3. find_all() /var/www/estoque/products/functions.php:11, referer: http://192.168.56.101/estoque/products/add.php
+[Mon Jul 10 01:53:19.883964 2017] [:error] [pid 1998] [client 192.168.56.1:51871] PHP   4. find() /var/www/estoque/inc/database.php:64, referer: http://192.168.56.101/estoque/products/add.php
